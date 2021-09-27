@@ -48,7 +48,7 @@ document.getElementById("btnft").addEventListener("click",fetchdata);
 function fetchdata(){
     let fetchindex=parseInt(document.getElementById("ft").value);
     document.getElementById("cont").innerHTML=x[fetchindex].name;
-    // document.getElementById("arraycontent").innerHTML=;
+    
         
 }
 
